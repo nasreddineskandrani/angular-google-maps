@@ -1397,7 +1397,7 @@ var AgmInfoWindow = (function () {
         var _this = this;
         this._infoWindowManager.createEventObservable('closeclick', this).subscribe(function () {
             _this.isOpen = false;
-            _this.infoWindowClose.emit();
+            _this.infoWindowClose.emit({ isImgXClicked: true });
         });
     };
     AgmInfoWindow.prototype._updateOpenState = function () {

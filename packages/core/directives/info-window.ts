@@ -128,7 +128,7 @@ export class AgmInfoWindow implements OnDestroy, OnChanges, OnInit {
   private _registerEventListeners() {
     this._infoWindowManager.createEventObservable('closeclick', this).subscribe(() => {
       this.isOpen = false;
-      this.infoWindowClose.emit();
+      this.infoWindowClose.emit({isImgXClicked: true} as any);
     });
   }
 
