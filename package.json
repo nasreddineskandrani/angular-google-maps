@@ -3,10 +3,10 @@
   "private": true,
   "version": "1.0.0-beta.1",
   "description": "Angular 2+ components for Google Maps",
-  "main": "./dist/core/core.umd.js",
+  "main": "./dist/core/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SebastianM/angular-google-maps.git"
+    "url": "https://github.com/ngeniussoft/angular-google-maps.git"
   },
   "keywords": [
     "angular",
@@ -46,7 +46,7 @@
   "author": "Sebastian Holstein <info@sebastian-holstein.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SebastianM/angular-google-maps/issues"
+    "url": "https://github.com/ngeniussoft/angular-google-maps/issues"
   },
   "homepage": "https://angular-maps.com",
   "peerDependencies": {
